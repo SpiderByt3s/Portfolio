@@ -206,126 +206,73 @@ input[type=submit] {
 /*Responsive section*/
 
 @media screen and (max-width: 640px) {
-	.container {
-			width: 100%;
-			max-width: 640px;
-			margin: 0 auto;
-			clear: both;
-	}
-	#masthead {
-		margin: 0 0 0px;
-	    width: 100%;
-			position: static;
-	}
-	#logo {
-			width:100%;
-	}
-	nav {
-		margin-top: 10px;
-		margin-bottom: 10px;
-			width:100%;
-			float:left;
-	}
-	nav a {
-	    margin-left: 58px;
-	    display: inline-block;
-	    border-left: 1px solid #efefef;
-	    padding-left: 58px;
-	    line-height: 18px;
-	}
-	#main-container {
-			padding-top: 15px;
-			width: 640px;
-	}
-	.work {
-			width: 542px;
-			overflow: auto;
-			position: relative;
-			float: left;
-	}
-	.sidebar {
-			margin-right: 18px;
-			max-width: 604px;
-	}
-	.main-section {
-			margin-left: 18px;
-			max-width: 604px;
-	}
-	.auth-image {
-			width: 542px;
-			height: auto;
-	}
-    }
-}
-@media screen and (min-width: 641px) and (max-width: 768px) {
-	.container {
-			width: 100%;
-			max-width: 768px;
-			margin: 0 auto;
-			clear: both;
-	}
-	#logo {
-			margin-left: 18px;
-	}
-	nav {
-			margin-right: 18px;
-	}
-	#main-container {
-			padding-top: 130px;
-			width: 768px;
-	}
-	.work {
-			width: 315px;
-			overflow: auto;
-			position: relative;
-			float: left;
-	}
-	.sidebar {
-			margin-right: 18px;
-			max-width: 732px;
-	}
-	.main-section {
-			margin-left: 18px;
-			max-width: 732px;
-	}
-	.auth-image {
-			width: 358px;
-			height: auto;
-	}
-}
-@media screen and (min-width: 769px) and (max-width: 980px) {
-    .container {
-        width: 100%;
-        max-width: 980px;
-        margin: 0 auto;
-        clear: both;
-    }
     #logo {
-        margin-left: 118px;
-    }
-    nav {
-        margin-right: 118px;
+        width: 100%;
     }
     #main-container {
-        padding-top: 130px;
-        width: 980px;
+        width: 90%;
+    }
+    nav {
+        clear: both;
+        float: left;
+        width: 100%;
+    }
+    nav a {
+        text-align: center;
+        width: 33.3%;
+        float: left;
+        border-left: none;
+        margin-bottom: 25px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .main {
+        margin-top: 50px;
+    }
+    .sidebar {
+        float: left;
+        max-width: 100%;
     }
     .work {
-        width: 360px;
+        width: 100%;
         overflow: auto;
         position: relative;
         float: left;
     }
+    .auth-image {
+        width: 542px;
+        height: auto;
+    }
+}
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    .container {
+        width: 93%;
+    }
+    .work {
+        width: 46%;
+    }
     .sidebar {
-        margin-right: 118px;
+        max-width: 100%;
     }
     .main-section {
-        margin-left: 118px;
-        max-width: 420px;
-        height:auto;
+        max-width: 100%;
     }
-		.auth-image {
-		    width: 358px;
-		    height: auto;
-		}
+    .auth-image {
+        width: 358px;
+        height: auto;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  .container {
+		width: 80%;
+	}
+	.main-section {
+		width: 60%;
+	}
+	.image {
+		width: 100%;
+	}
+		.work {
+		width: 100%;
+	}
 }
